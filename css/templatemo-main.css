@@ -161,8 +161,8 @@ body {
 }
 
 nav {
-	top: 10vh;
-	bottom: 10vh;
+	top: 10%;
+	bottom: 10%;
   	text-align: center;
   	background: rgba(0, 0, 0, 0.5);
   	position: fixed;
@@ -729,9 +729,18 @@ nav a:hover::before {
 
 @media (max-width: 991px) {
 
+	.slides .slide .content {
+		width: 70%;
+		height: 90%;
+		left: 30%;
+		top: 0%;
+		bottom: 10%;
+	  }
+
 	nav ul {
   		margin-left: 25px;
-  	}
+	  }
+
 
 	.first-content {
 		padding: 50px;
@@ -783,6 +792,9 @@ nav a:hover::before {
 
 	nav {
 		width: 15vh;
+		height: 90%;
+		bottom: 10%;
+		top: 0%;
 	}
 
 	nav .logo {
