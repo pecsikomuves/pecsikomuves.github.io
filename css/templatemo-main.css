@@ -317,6 +317,7 @@ nav a:hover::before {
 }
 
 
+.main-button a:hover,
 .main-btn a:hover {
 	background-color: #fff;
 	color: #232323!important;
@@ -384,10 +385,12 @@ nav a:hover::before {
 	transition: all 0.5s;
 }
 
+.third-content .fb-btn,
 .first-content .fb-btn {
 	display: inline-block;
 }
 
+.third-content .fb-btn a,
 .first-content .fb-btn a {
 	display: inline-block;
 	background-color: #fff;
@@ -401,6 +404,7 @@ nav a:hover::before {
 	transition: all 0.5s;
 }
 
+.third-content .fb-btn a:hover,
 .first-content .fb-btn a:hover {
 	color: #fff;
 	background-color: transparent;
@@ -523,6 +527,8 @@ nav a:hover::before {
 	margin-bottom: 20px;
 }
 
+.main-button a,
+.fourth-content .main-btn a,
 .third-content .main-btn a {
 	display: inline-block;
 	border: 2px solid #fff;
@@ -534,6 +540,7 @@ nav a:hover::before {
 	text-decoration: none;
 	transition: all 0.5s;
 }
+
 
 .third-content .col-md-6 {
 	margin: 0px;
@@ -727,7 +734,6 @@ nav a:hover::before {
   	}
 
 	.first-content {
-		text-align: center;
 		padding: 50px;
 	}
 

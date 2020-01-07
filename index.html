@@ -3,13 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Moonlight CSS Website Template</title>
-<!-- 
-Moonlight Template 
-https://templatemo.com/tm-512-moonlight
--->
+        <title>Pécsi kőműves</title>
+
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="img/komuves.png" sizes="16x16">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -34,7 +32,7 @@ https://templatemo.com/tm-512-moonlight
     </div>
     
   
-        <nav>
+        <nav class="content" style="overflow-y: scroll;">
           <div class="logo">
               <img src="img/logo.png" alt="">
           </div>
@@ -42,11 +40,11 @@ https://templatemo.com/tm-512-moonlight
               <img src="img/mini_logo.png" alt="">
           </div>
           <ul>
-            <li><a href="#1"><i class="fa fa-home"></i> <em>Home</em></a></li>
-            <li><a href="#2"><i class="fa fa-user"></i> <em>About</em></a></li>
-            <li><a href="#3"><i class="fa fa-pencil"></i> <em>Entries</em></a></li>
-            <li><a href="#4"><i class="fa fa-image"></i> <em>Work</em></a></li>
-            <li><a href="#5"><i class="fa fa-envelope"></i> <em>Contact</em></a></li>
+            <li><a href="#1"><i class="fa fa-home"></i> <em>Főoldal</em></a></li>
+            <li><a href="#2"><i class="fa fa-user"></i> <em>Rólam</em></a></li>
+            <li><a href="#3"><i class="fa fa-handshake-o"></i> <em>Partnerek</em></a></li>
+            <li><a href="#4"><i class="fa fa-image"></i> <em>Munkáim</em></a></li>
+            <li><a href="#5"><i class="fa fa-envelope"></i> <em>Elérhetőségek</em></a></li>
           </ul>
         </nav>
         
@@ -58,10 +56,17 @@ https://templatemo.com/tm-512-moonlight
                       <div class="author-image"><img src="img/author_image.png" alt="Author Image"></div>
                   </div>
                   <div class="col-md-9">
-                      <h2>Mingalar par</h2>
-                      <p>Please take a look at <strong><a rel="nofollow" href="https://www.toocss.com">Too CSS</a></strong> to see free template collections for you. Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit. <em>Sed vehicula blandit augue,</em> eu maximus odio tempus vitae.</p>
-                      <div class="main-btn"><a href="#2">Read More</a></div>
-                      <div class="fb-btn"><a rel="nofollow" href="https://fb.com/templatemo">Our FB Page</a></div>
+                      <h2>Gyarmati Gyula</h2>
+                        <p><strong>
+                        Üdvözlök mindenkit,</p>
+                        <p>
+                        Gyarmati Gyula vagyok 59 èves, közel negyven ève a szakmàban dolgozom.
+                        </strong></p>
+                        <p class="text-justify">
+                        #komuves #belsoburkolo #kulsoburkolo #falazas #betonozas #burkolas #hoszigeteles #gipszkartonozas #kemenyepites
+                        </p> 
+                      <div class="main-btn"><a href="#2">Bővebben rólam</a></div>
+                      <div class="fb-btn"><a rel="nofollow" href="https://fb.com/gyula.gyarmati.7" target="_blank">Facebook oldalam</a></div>
                   </div>
               </div>
             </div>
@@ -71,12 +76,15 @@ https://templatemo.com/tm-512-moonlight
                 <div class="container-fluid">
                     <div class="col-md-6">
                         <div class="left-content">
-                            <h2>About Us</h2>
-                            <p>Please tell your friends about templatemo website. A variety of free CSS templates are available for immediate downloads.</p> 
-                            <p>Phasellus vitae faucibus orci. Etiam eleifend orci sed faucibus semper. Cras varius dolor et augue fringilla, eu commodo sapien iaculis. Donec eget dictum tellus. <a href="#">Curabitur</a> a interdum diam. Nulla vestibulum porttitor porta.</p>
-                            <p>Nulla vitae interdum libero, vel posuere ipsum. Phasellus interdum est et dapibus tempus. Vestibulum malesuada lorem condimentum mauris ornare dapibus. Curabitur tempor ligula et <a href="#">placerat</a> molestie.</p>
-                            <p>Aliquam efficitur eu purus in interdum. <a href="#">Etiam tincidunt</a> magna ex, sit amet lobortis felis bibendum id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                          <div class="main-btn"><a href="#3">Read More</a></div>
+                            <h2>Rólam</h2>
+                                <p class="text-justify">
+                                Jelenleg egyèni vàllalkozòkènt kőműves ès ehhez kapcsolòdò munkàkat vàllalok. 
+                                Tisztessèges, megbìzhatò, szorgalmas embernek tartom magam, aki a munkàjàra igènyes ès büszke.
+                                </p> 
+                                <p class="text-justify">Kérem hìvjon bizalommal, amennyiben felkeltettem az èrdeklödèsèt ès ingyenes kiszàllàs mellet, 
+                                meghallgathatja àrajànlatomat is.
+                                </p>
+                          <div class="main-btn"><a href="#4">Munkáim megtekintése</a></div>
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -92,7 +100,7 @@ https://templatemo.com/tm-512-moonlight
                 <div class="container-fluid">
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="first-section">
+                            <!-- <div class="first-section">
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-md-6">
@@ -109,7 +117,7 @@ https://templatemo.com/tm-512-moonlight
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="second-section">
                                 <div class="container-fluid">
                                     <div class="row">
@@ -120,9 +128,13 @@ https://templatemo.com/tm-512-moonlight
                                         </div>
                                         <div class="col-md-6">
                                             <div class="right-content">
-                                                <h2>Maecenas eu purus eu sapien</h2>
-                                                <p>Sed vitae felis in lorem mollis mollis eget in leo. Donec commodo, ex nec rutrum venenatis, nisi nisl malesuada magna, sed semper ipsum enim a ipsum. Aenean in ante vel mi molestie bibendum. Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
-                                                <div class="main-btn"><a href="#4">Continue Reading</a></div>
+                                                <h2>ATLAS Orvosi és Gyógytorna Központ</h2>
+                                                <p>A pécsi ATLAS Orvosi és Gyógytorna Központ célja, hogy tapasztalt szakemberek segítségével, komplex terápiás megoldásokkal járuljon hozzá a páciensek gyógyulásához, rehabilitációjához.</p>
+                                            <div style="margin-bottom: 2rem;">    
+                                                <div style="display: inline-block; margin-right: 1rem;" class="main-button"><a href="https://atlasgyogykozpont.hu/" target="_blank">Bőveben...</a></div>
+                                                <div class="fb-btn"><a rel="nofollow" href="https://fb.com/atlasgyogykozpont" target="_blank">Facebook oldaluk</a></div>
+                                            </div>
+                                                <div class="main-btn"><a href="#4">Tovább</a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -131,7 +143,7 @@ https://templatemo.com/tm-512-moonlight
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
           </div>
           <div class="slide" id="4">
             <div class="content fourth-content">
@@ -317,6 +329,7 @@ https://templatemo.com/tm-512-moonlight
                                 </div>
                             </div>
                         </div>
+                        <div class="main-btn"><a href="#5">Elérhetőségek</a></div>
                     </div>
                 </div>
             </div>
@@ -332,35 +345,41 @@ https://templatemo.com/tm-512-moonlight
             3. Click "Share" and choose "Embed map" tab
             4. Copy only URL and paste it within the src="" field below
 	-->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2766.998165586234!2d18.265332315578544!3d46.09101397911337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4742b0e1a80c1c39%3A0x7001e26326266975!2zUMOpY3MsIERvYsOzIElzdHbDoW4gdS4gNzQsIDc2MjkgTWFneWFyb3JzesOhZw!5e0!3m2!1shu!2sat!4v1578404235289!5m2!1shu!2sat" width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <form id="contact" action="" method="post">
+                            <div style="color: white; margin-top: 5rem;">
+                                <i class="fa fa-envelope fa-2x" aria-hidden="true"></i><br>
+                                <h5>gyarmatigyula0229@gmail.com</h5><br>
+                                <i class="fa fa-mobile fa-3x" aria-hidden="true"></i><br>
+                                <h5>(+36) 30 583 0305</h5><br>
+                            </div>  
+                        <form id="contact" action="https://formspree.io/gyarmatigyula0229@gmail.com" method="post">
                             <div class="row">
                                 <div class="col-md-12">
                                   <fieldset>
-                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="Az Ön neve..." required="">
                                   </fieldset>
                                 </div>
                                 <div class="col-md-12">
                                   <fieldset>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email címe..." required="">
                                   </fieldset>
                                 </div>
                                  <div class="col-md-12">
                                   <fieldset>
-                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="">
+                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Tárgy..." required="">
                                   </fieldset>
                                 </div>
                                 <div class="col-md-12">
                                   <fieldset>
-                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Üzenet..." required=""></textarea>
                                   </fieldset>
                                 </div>
                                 <div class="col-md-12">
                                   <fieldset>
-                                    <button type="submit" id="form-submit" class="btn">Send Now</button>
+                                    <button type="submit" id="form-submit" class="btn">Küldés</button>
                                   </fieldset>
                                 </div>
                             </div>
@@ -373,7 +392,7 @@ https://templatemo.com/tm-512-moonlight
 
         <div class="footer">
           <div class="content">
-              <p>Copyright &copy; 2020 Company Name . Template: <a rel="nofollow" href="https://templatemo.com/tm-512-moonlight">Moonlight</a></p>
+            <p>Ezt a weboldalt Gyarmati Ádám készítette.</p>
           </div>
         </div>
  
