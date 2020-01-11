@@ -741,9 +741,16 @@ nav a:hover::before {
   		margin-left: 25px;
 	  }
 
+	  .second-content,
+	  .third-content,
+	  .fourth-content,
+	  .fifth-content {
+		  padding-bottom: 100px;
+	  }
 
 	.first-content {
 		padding: 50px;
+		padding-bottom: 100px !important;
 	}
 
 	.first-content .author-image img {
